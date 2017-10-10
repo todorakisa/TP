@@ -5,7 +5,7 @@ def interval
         len = arr.length - 30
         for  i in 0..len
             sum = 0
-            for  k in  0.. 30
+            for  k in  0.. 29
                 sum += arr[k+i][0]
             end
             if max_sum < sum 
